@@ -7,4 +7,6 @@
  #   for j in range(i):
   #      print(i,j)
         
-    
+x = 5
+
+print(x % 2)
