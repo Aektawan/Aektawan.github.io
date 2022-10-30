@@ -1,7 +1,10 @@
-a = int(input('Money : '))
+#for i in range(1, 3):
+ #   for j in range(2, 5):
+  #      print(i,j)
 
-if a > 10000:
-    bonus = 1000
-    print(a+bonus)
-else:
-    print("No Bonus")
+
+#for i in range(4):
+ #   for j in range(i):
+  #      print(i,j)
+        
+    

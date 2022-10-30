@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="MvPLuP_P4ro_w12G_6CE" name="Page-1">
-        <mxGraphModel dx="414" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+        <mxGraphModel dx="600" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -950,6 +950,86 @@
                 </mxCell>
                 <mxCell id="318" value="&lt;div&gt;&amp;nbsp; # If user wants to do another one.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;keep_continue = input(&quot;Do you want to calculate another&quot;+ \&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&quot;Commission (Enter Y for yes) : &quot;)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
                     <mxGeometry x="75" y="8250" width="490" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="319" value="If the condition is true,&lt;br&gt;these statements are&amp;nbsp;&lt;br&gt;executed, and then the&lt;br&gt;loop starts over." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="8090" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="320" value="If the condition is false,&lt;br&gt;these statements are&lt;br&gt;&amp;nbsp;skipped, and the &lt;br&gt;program exits the loop" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="8190" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="321" value="This condition is tested." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="222.5" y="7930" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="322" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="8030" width="70" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="323" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;" vertex="1" parent="1">
+                    <mxGeometry x="265" y="7915" width="45" height="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="326" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="324" target="325">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="324" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="275" y="8520" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="328" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="325" target="327">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="325" value="Assign 'Y' to keep_continue" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="242.5" y="8630" width="165" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="331" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="327" target="329">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="335" style="edgeStyle=none;html=1;entryX=0.505;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="327" target="334">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="564" y="8750"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="327" value="keep_continue == 'Y'" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="252.5" y="8700" width="145" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="329" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="275" y="8850" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="332" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="8800" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="333" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="8720" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="338" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="334" target="336">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="334" value="&#10;&#10;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 254);&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;sales = float(input(&quot;Enter the amount of sales : &quot;))&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 254);&quot;&gt;&amp;nbsp;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;rate = float(input(&quot;Enter the commission rate : &quot;))&lt;/div&gt;&#10;&#10;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+                    <mxGeometry x="415" y="8760" width="295" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="340" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="336" target="339">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="336" value="&#10;&#10;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;commission = sales * rate&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="511.25" y="8885" width="102.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="342" style="edgeStyle=none;html=1;entryX=0.498;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="339" target="341">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="339" value="Display the commission" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="512.5" y="8970" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="343" style="edgeStyle=none;html=1;" edge="1" parent="1" source="341">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="331" y="8680" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="563" y="9200"/>
+                            <mxPoint x="770" y="9200"/>
+                            <mxPoint x="770" y="8680"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="341" value="&lt;div&gt;keep_continue = input(&quot;Do you want to calculate another&quot;+ \&lt;/div&gt;&lt;div&gt;&lt;span&gt;&#9;&lt;/span&gt;&quot;Commission (Enter Y for yes) : &quot;)&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+                    <mxGeometry x="415" y="9060" width="295" height="100" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
