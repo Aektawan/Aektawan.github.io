@@ -7,6 +7,4 @@
  #   for j in range(i):
   #      print(i,j)
         
-x = 5
-
-print(x % 2)
+print("She said, \"That 's a great tasting apple! \"")
