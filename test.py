@@ -8,3 +8,17 @@
   #      print(i,j)
         
 print("She said, \"That 's a great tasting apple! \"")
+
+def main():
+  taxas()
+  california()
+
+def taxas():
+  birds = 5000
+  print(birds)
+
+def california():
+  birds = 8000
+  print(birds)
+
+main()
