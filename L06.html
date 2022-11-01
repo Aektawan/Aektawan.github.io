@@ -59,19 +59,74 @@
 				<!-- Main -->
 				<div id="main">
 					<div class="inner">
-						<h1>Computer and Programming</h1>
-						<span class="image main"><img src="images/L01computer.png" alt="" /></span>
-						<h2>What Is Computer?</h2>
-						<p>A computer is an electronic machine that processes information—in other words, an information processor: it takes in raw information (or data) at one end, stores it until it's ready to work on it, chews and crunches it for a bit, then spits out the results at the other end. All these processes have a name. Taking in information is called input, storing information is better known as memory (or storage), chewing information is also known as processing, and spitting out results is called output.</p>
-						<h2>How Does a Computer Work?</h2>
-						<p>A computer processes the input to produce the desired output, but how does a machine outperform the human brain?
-							Conventional computers don't try to mimic the human brain. Instead, they run commands sequentially, with data constantly moving from input and memory to the device's processor. Neuromorphic computers, on the other hand, process data at the same time, making them faster, energy-efficient, and closer to the structure of the human brain.</p>
-							<p>Overall, a computer works in four steps:</p>
-							<ul><p><li><b>Input:</b> Input is the data before processing. It comes from the mouse, keyboard, microphone, and other external sensors.</li> <br>
-								<li><b>Storage:</b> The storage is how the computer retains input data. The hard drive is used for long-term and mass data storage while the data set for immediate processing is stored temporarily in the Random Access Memory (RAM).</li><br>
-								<li><b>Processing:</b> Processing is where input gets transformed into output. The computer's Central Processing Unit (CPU) is its brain. It's responsible for executing instructions and performing mathematical operations on the input data.</li><br>
-								<li><b>Output:</b> Output is the final result of data processing. It can be anything from images, video, or audio content, even the words you type using a keyboard. You can also receive the output through a printer or a projector instead of directly through your device.</li><br></p></ul>
-							<span class="image main"><img src="images/inputprocessoutput.png" alt="" /></span>
+						<h1>FILES AND EXCEPTIONS</h1>
+						<span class="image main"><img src="images/FILE.png" alt="" /></span>
+						<h2>introduction</h2>
+						<p><b>FILE INPUT/OUTPUT</b></p>
+						<ul><p><li>For program to retain data between the times it is run, you must save the data</li><br>
+								<ul><li>Data is saved to a file, typically on computer disk</li>
+									<li>Saved data can be retrieved and used at a later time</li></ul>
+							<li><b>"Writing data to" :</b> saving data on a file</li><br>
+							<li><b>Output file:</b> a file that data is written to</li><br>
+							<li><b>"Reading data from" :</b> process of retrieving data from a file</li><br>
+							<li><b>Input file:</b> a file from which data is read</li><br></p></ul>
+
+						<p><b>Write Data To File</b></p>
+						<img src="images/writefile.png" alt="" />			
+						<img src="images/readfromfile.png" alt="" />
+
+						<p><b>Type Of Files</b></p>
+						<p>In general, two types of files</p>
+						<ul><p><li>1. Text file: contains data that has been encoded as text</li><br>
+						<li>2. Binary file: contains data that has not been converted to text</li></ul></p>
+						<p>Two ways to access data stored in file</p>
+						<ul><p><li>Sequential access: file read sequentially from beginning to end, can't skip ahead</li><br>
+						<li>Direct access: can jump directly to any piece of data in the file</li></ul>
+
+						<p><b>File</b></p>
+						<p>There are always three steps that must be taken when a file is used by a program.</p>
+						<ul><li><b>Open the file</b>- Opening a file creates a connection between the file and the program.
+							Opening an output file usually creates the file on the disk and allows the program to
+							write data to it. Opening an input file allows the program to read data from the file.</li><br>
+						<li><b>Process the file</b>- In this step data is either written to the file (if it is an output file) or read
+							from the file (if it is an input file).</li><br>
+						<li><b>Close the file</b> When the program is finished using the file, the file must be closed.
+							Closing a file disconnects the file from the program.</li></ul><br>	
+
+						<h2><b>Input / Output</b></h2>
+						<p><b>Open File</b></p>
+						<p>file_variable = open(filename, mode)</p>
+						<img src="images/openfile.png" alt="" />
+						<p><b>File Mode</b></p>
+						<img src="images/modefile.png" alt="" />
+						<p><b>File Write</b></p>
+						<img src="images/filewrite.png" alt="" height="220" width="1100"/>
+						<p><b>File Read</b></p>
+						<img src="images/fileread.png" alt="" />
+						<p><b>Read Line</b></p>
+						<img src="images/readline.png" alt="" />
+						<p><b>Strip Newline</b></p>
+						<img src="images/stripnewline.png" alt="" /><br><br>
+						<p><b>Example</b></p>
+						<img src="images/writenumber.png" alt="" /><br>
+						<img src="images/writenumber2.png" alt="" /><br>
+						<img src="images/readnumber.png" alt="" /><br>
+
+						<h2><b>Using loop to process file</b></h2>
+						<p><b>Detecting End Of File</b></p>
+						<img src="images/detectin end of file.png" alt="" /><br>
+						
+
+
+
+
+
+
+
+
+
+
+						<span class="image main"><img src="images/inputprocessoutput.png" alt="" /></span>
 						<h2>Software?</h2>
 						<p>Software is a set of computer programs and associated documentation and data. This is in contrast to hardware, from which the system is built and which actually performs the work.</p>
 						<span class="image main"><img src="images/software.png" alt="" /></span>
