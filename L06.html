@@ -170,9 +170,79 @@
 							<li>Handler: statements contained in <b>except</b> block</li>	
 						</ul>
 						<img src="images/grosspay2.png" alt="" /><br>
-
-
-
+							
+						<ul><li>Many exceptions can be prevented by careful coding</li>
+							<ul><li>Example: input validation</li>
+							<li>Usually involve a simple decision construct</li>
+							</ul>
+						<li>Some exceptions cannot be avoided by careful coding</li>
+							<ul><li>Examples</li>
+								<ul><li>Trying to convert non-numeric string to an integer</li>
+									<li>Trying to open for reading a file that doesn't exist</li>
+								</ul>
+							</ul>
+						</ul>
+						<img src="images/grosspay2.2.png" alt="" /><br>
+						<ul><li>If statement in try suite raises exception:</li>
+							<ul><li>Exception specified in except clause:</li>
+								<ul><li>Handler immediately following except clause executes</li>
+								<li>Continue program after try/except statement</li></ul>
+							<li>Other exceptions:</li>
+							<ul><li>Program halts with traceback error message</li></ul>
+						</ul>
+						<li>If no exception is raised, handlers are skipped</li></ul>
+						<img src="images/displayfile.png" alt="" /><br>
+						<p><b>Handling Multiple Exceptions</b></p>
+						<ul><li>Often code in try suite can throw more than one type of exception</li>
+							<ul><li>Need to write <b>except</b> clause for each type of exception that needs to be handled</li></ul>
+						<li>An except clause that does not list a specific exception will handle any exception that is raised in the try suite</li>
+							<ul><li>Should always be last in a series of <b>except</b> clauses</li></ul>
+						</ul>
+						<img src="images/salereport.png" alt="" /><br>	
+						<ul><li>Exception object: object created in memory when an exception is thrown</li>
+						<ul><li>Usually contains default error message pertaining to the exception</li>
+							<li>Can assign the <b>exception</b> object to a variable in an except clause</li>
+							<ul><li>Example: <b>except ValueError as err:</b></li></ul>
+							<li>Can pass exception object variable to <b>print</b> function to display the default error message</li>
+						</ul>
+						</ul>
+						<img src="images/grosspay3.png" alt="" /><br>	
+						<p><b>The Else Clause</b></p>
+						<ul><li><b>try/except</b> statement may include an optional else clause, which appears after all the except clauses</li>
+						<ul>
+							<li>Aligned with <b>try</b> and <b>except</b> clauses</li>
+							<li>Syntax similar <b>to else</b> clause in decision structure</li>
+							<li><b>Else suite:</b> block of statements executed after statements in try suite, only if no exceptions were raised</li>
+							<ul><li>If exception was raised, the else suite is skipped</li></ul>
+						</ul>
+						</ul>
+						<img src="images/salereport4.png" alt="" /><br>	<br>
+						<p><b>The Fanally Clause</b></p>
+						<ul><li>try/except statement may include an optional <b>finally</b> clause, which appears after all the<b> except</b> clauses</li>
+							<ul><li>Aligned with <b>try</b> and <b>except</b> clauses</li>
+								<li>General format:</li>
+									<ul><b>finally:</b></ul>
+										<ul><ul><b>statements</b></ul></ul></ul>
+								<li><b>Finally suite:</b> block of statements after the <b>finally</b> clause</li>
+								<ul><li>Execute whether an exception occurs or not</li>
+									<li>Purpose is to perform cleanup before exiting</li>
+								</ul>
+							</ul>
+						</ul>
+						<p><b>Try-Except-Finally</b></p>
+						<img src="images/tryexceptfinally.png" alt="" /><br>	<br>
+						<p><b>Example Try-Except-Finally</b></p>
+						<img src="images/tryexceptfinally2.png" alt="" /><br>	<br>
+						<h2><b>what if an exception is not handled?</b></h2>
+						<ul><li>Two ways for exception to go unhandled:</li>
+							<Ul><li>No except clause specifying exception of the right type</li>
+								<li>Exception raised outside a try suite</li>
+							</Ul>
+							<li>In both cases, exception will cause the program to halt</li>
+							<Ul><li>Python documentation provides information about
+								exceptions that can be raised by different functions</li>
+							</Ul>
+						</ul>
 
 					</div>
 				</div>
