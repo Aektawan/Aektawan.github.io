@@ -1,24 +1,9 @@
-#for i in range(1, 3):
- #   for j in range(2, 5):
-  #      print(i,j)
+#Game Shoot the fruit
+import pgzrun
 
+#Define size of the windows
+WIDTH = 900
+HEIGHT = 800
 
-#for i in range(4):
- #   for j in range(i):
-  #      print(i,j)
-        
-print("She said, \"That 's a great tasting apple! \"")
-
-def main():
-  taxas()
-  california()
-
-def taxas():
-  birds = 5000
-  print(birds)
-
-def california():
-  birds = 8000
-  print(birds)
-
-main()
+#Create object
+apple = Actor
